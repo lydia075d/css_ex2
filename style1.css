@@ -1,0 +1,32 @@
+body{
+    background-image: url("projectpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    color: black;
+    border-top-style: dashed; 
+    border-bottom-style: dashed;
+    border-left-style:dashed ;
+    border-right-style:dashed ;
+    padding: 7px;
+}
+p{
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(7, 166, 132);
+    border-radius: 20px;
+    padding: 7px;
+}
+#p2{
+    color: rgb(192, 9, 152);
+}  
+.odd{
+    color: rgb(227, 247, 78);
+} 
+.even{
+    color: rgb(54, 4, 220);
+}
