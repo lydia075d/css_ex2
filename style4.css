@@ -1,0 +1,19 @@
+#box1{
+    border-style: dashed;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(5, 197, 211);
+    position: sticky;
+    top: 0px;
+    font-size: larger;
+    
+}
+#box2{
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(159, 229, 166);
+    position: absolute;
+    top: 150;
+    left: 150px;
+}
