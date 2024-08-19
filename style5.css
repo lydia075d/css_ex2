@@ -1,0 +1,25 @@
+a:link{
+    color: rgb(6, 150, 58);
+}
+a:visited{
+    color: rgb(164, 27, 27);
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: blueviolet;
+}
+button:hover{
+    background-color: rgb(14, 177, 180);
+}
+button:active{
+    color: aquamarine;
+}
+/*shadows*/
+h1{
+    text-shadow: 0px 4px 0px cornflowerblue;
+}
+h1:hover{
+    box-shadow: 5px 5px 5px rgb(75, 4, 16);
+}
