@@ -1,0 +1,44 @@
+.fa-house{
+    color: rgb(202, 30, 151);
+}
+#box{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 100px;
+    text-align: center;
+    background-color: beige;
+
+    transform: rotateX(180deg);
+    transform: translateX(50px);
+    transform: rotateY(50px);
+    transform: scale(2,1);
+    /*  transform: skew(20deg,20deg);
+*/
+   /* animation: myslide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+  
+*/
+    /*  animation: 3s linear 0s infinte running myslide;
+*/
+
+}
+#box:hover{
+    animation: 3s linear 0s infinte running myslide;
+}
+#box:active{
+    animation: 3s linear 0s infinte running myslide;
+}
+
+@keyframes myslide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes myrotate{
+    100%{transform: rotateZ(360deg);}
+}
